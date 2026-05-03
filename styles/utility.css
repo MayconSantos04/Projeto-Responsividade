@@ -3,19 +3,19 @@
 }
 
 .py-lg {
-    padding-block: var(--py-base);
+    padding-block: var(--py-lg);
 }
 
 .py-xl {
     padding-block: var(--py-xl);
 }
 
-.px-lg {
-    padding-inline: var(--px-lg);
-}
-
 .py-2xl {
     padding-block: var(--py-2xl);
+}
+
+.px-lg {
+    padding-inline: var(--px-lg);
 }
 
 .container {
@@ -43,10 +43,10 @@
 }
 
 .grid {
-display: grid;
+    display: grid;
 }
 
-@media (width >=80em) {
+@media (width >= 80em) {
     .container {
         --max-width: 80rem;
     }
